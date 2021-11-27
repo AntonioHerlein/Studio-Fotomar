@@ -1,0 +1,71 @@
+.sectionIntro {
+    text-align: center;
+    margin: 50px;
+    align-items: center;
+    align-content: center;
+}
+
+.sectionServicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+
+    .row {
+        gap: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+
+        .contenedorServicios {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            width: 100%;
+
+            .tarjeta {
+                width: 400px;
+                height: 500px;
+                border: 1px solid $color6;
+                box-shadow: 0px 0px 3px 3px $color6;
+                transition: all 300ms;
+                background-color: $color1;
+
+                /*:hover {
+                    transition: all 300ms;
+                    transform: scale(1.09);
+                }*/
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 50%;
+                }
+
+                p {
+                    padding: 0px 20px
+                }
+            }
+
+            .contenedor {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                align-items: center;
+                gap: 10px;
+
+                .contenedor_lista {
+                    text-decoration: none;
+                    list-style: none;
+                    font-size: x-large;
+                    align-items: center;
+                    align-content: center;
+                }
+            }
+        }
+    }
+}

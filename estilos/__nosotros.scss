@@ -1,0 +1,41 @@
+#seccionNosotros {
+    margin: 50px 150px 50px 150px;
+    text-align: center;
+    margin: 50px;
+    align-items: center;
+    align-content: center;
+
+    img {
+        margin: 30px;
+    }
+
+    div {
+        :hover {
+            -webkit-animation: 2s balanceo 1;
+        }
+    }
+}
+
+.seccionNosotros {
+    background-color: $color0;
+    padding: 20px;
+}
+
+@-webkit-keyframes balanceo {
+    20% {
+        -webkit-transform: scale(0.97) rotate(-1deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: scale(1.02) rotate(1deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        -webkit-transform: scale(1.02) rotate(-1deg);
+    }
+}

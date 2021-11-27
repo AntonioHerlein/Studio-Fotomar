@@ -1,0 +1,65 @@
+.servicios {
+    .servicios_encabezado {
+        margin-top: 30px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+}
+
+#bodas {
+    transition: all 500ms;
+}
+
+#comunion {
+    @extend #bodas;
+}
+
+#quince {
+    @extend #bodas;
+}
+
+#bautismos {
+    @extend #bodas;
+}
+
+#infantiles {
+    @extend #bodas;
+}
+
+#cursos {
+    @extend #bodas;
+}
+
+#bodas:hover {
+    background-color: #e7e7e7;
+    color: black;
+    transform: scale(1, 1);
+    transition: 500ms;
+
+}
+
+#quince:hover {
+    @extend #bodas:hover;
+}
+
+#comunion:hover {
+    @extend #bodas:hover;
+}
+
+#bautismos:hover {
+    @extend #bodas:hover;
+}
+
+#bodas:hover {
+    @extend #bodas:hover;
+}
+
+#infantiles:hover {
+    @extend #bodas:hover;
+}
+
+#cursos:hover {
+    @extend #bodas:hover;
+}
