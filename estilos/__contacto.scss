@@ -4,6 +4,10 @@ form {
     margin-bottom: 10px;
 }
 
+#inicio{
+    margin-top: 70px;
+}
+
 .mapa {
     position: relative;
     padding-bottom: 56.25%;
@@ -19,6 +23,7 @@ form {
     height: 100%;
 }
 
-.btn {
+form .btn {
     background-color: $color4;
+    justify-content: center;
 }
